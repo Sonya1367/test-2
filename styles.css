@@ -39,7 +39,10 @@ body {
 	align-items: center;
 }
 .article {
+	margin-left: var(--spacing-200);
+	margin-right:  var(--spacing-200);
 	display: flex;
+	width: 100%;
 	max-width: 24rem;
 	border-radius: 20px;
 	border: 1px solid var(--color-gray-950, #111);
@@ -48,9 +51,9 @@ body {
 	padding: var(--spacing-200, 1.5rem);
 	flex-direction: column;
 	gap: var(--spacing-200, 1.5rem);
-	flex-shrink: 0;
 }
 .article__image {
+	max-width: 100%;
 	border-radius: 10px;
 }
 .article__meta {
@@ -91,3 +94,9 @@ body {
 .article__author-name {
 	align-self: center;
 }
+
+/* @media (max-width: 370px) {
+	.main {
+		padding: 10px;
+	}
+} */
