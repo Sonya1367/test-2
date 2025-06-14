@@ -85,6 +85,7 @@ body {
 }
 .article__description {
 	font-size: var(--text-preset-2, 16px);
+	font-weight: 500;
 	color: var(--color-gray-500, #6b6b6b);
 }
 .article__author {
@@ -95,8 +96,3 @@ body {
 	align-self: center;
 }
 
-/* @media (max-width: 370px) {
-	.main {
-		padding: 10px;
-	}
-} */
